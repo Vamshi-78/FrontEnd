@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Faculty • Reports</title>
+  <link rel="stylesheet" href="Styles/faculty.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 class="ind-heading">Reports</h1>
+  </header>
+
+  <div class="card">
+    <h2>Filters</h2>
+    <form>
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Course</label>
+          <select>
+            <option value="">All Courses</option>
+            <option>24CS101 - Introduction to Programming</option>
+            <option>24SC201 - Marketing Basics</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Academic Year</label>
+          <select>
+            <option value="">All Years</option>
+            <option>2025-26</option>
+            <option>2024-25</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Semester</label>
+          <select>
+            <option value="">All Semesters</option>
+            <option>1</option><option>2</option><option>3</option><option>4</option>
+            <option>5</option><option>6</option><option>7</option><option>8</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Grade</label>
+          <select>
+            <option value="">All Grades</option>
+            <option>A</option><option>B</option><option>C</option><option>D</option>
+          </select>
+        </div>
+
+        <div class="form-group full form-actions">
+          <button type="reset" class="secondary">Reset</button>
+          <button type="submit" class="button">Apply</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="card">
+    <h2>Results Distribution</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Grade</th>
+          <th>Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>A</td><td>15</td></tr>
+        <tr><td>B</td><td>20</td></tr>
+        <tr><td>C</td><td>10</td></tr>
+        <tr><td>D</td><td>5</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Statistics</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Average Marks</th>
+          <th>Pass Percentage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>72.5</td>
+          <td>90%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>

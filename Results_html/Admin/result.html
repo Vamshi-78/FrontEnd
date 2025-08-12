@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Results Dashboard</title>
+    <link rel="stylesheet" href="Styles/admin.css">
+</head>
+<body class="dashboard-body">
+    
+    <h1 class="ind-heading">Admin Results Dashboard</h1>
+      
+    <ul class="dashboard-menu">
+        <li><a href="Results/Add_Results.html" class="menu-link">Add Results</a></li>
+        <li><a href="Results/Update_Results.html" class="menu-link disabled">Update Results</a></li>
+        <li><a href="Results/Delete_Results.html" class="menu-link disabled">Delete Results</a></li>
+        <li><a href="Results/Notify_Results.html" class="menu-link disabled">Post Notification of Results</a></li>
+    </ul>
+
+    <table class="results-table">
+        <thead>
+            <tr>
+                <th>S.No.</th>
+                <th>Reg.ID</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Marks</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>32516</td>
+                <td>Vamshi</td>
+                <td>FrontEnd</td>
+                <td>43</td>
+                <td>
+                    
+                    <ul class="action-list">
+                       <button><li><a href="Results/Update_Results.html" class="action-link edit">Edit Results</a></li></button>
+                        <button><li><a href="Results/Delete_Results.html" class="action-link delete">Delete Results</a></li></button>
+                    </ul>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>32835</td>
+                <td>Hari</td>
+                <td>FrontEnd</td>
+                <td>45</td>
+                <td>
+                    <ul class="action-list">
+                       <button><li><a href="Results/Update_Results.html" class="action-link edit">Edit Results</a></li></button>
+                        <button><li><a href="Results/Delete_Results.html" class="action-link delete">Delete Results</a></li></button>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

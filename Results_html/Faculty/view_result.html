@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Faculty • Results</title>
+  <link rel="stylesheet" href="Styles/faculty.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 class="ind-heading">Results</h1>
+  </header>
+
+  <div class="card">
+    <h2>Insert Results</h2>
+    <form>
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Course *</label>
+          <select required>
+            <option value="">Select Course</option>
+            <option>24CS101 - Introduction to Programming</option>
+            <option>24SC201 - Marketing Basics</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Student *</label>
+          <select required>
+            <option value="">Select Student</option>
+            <option>1001 - Nandha Kumar</option>
+            <option>1002 - Ravi</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Internal *</label>
+          <input type="number" min="0" max="30" required>
+        </div>
+
+        <div class="form-group">
+          <label>External *</label>
+          <input type="number" min="0" max="70" required>
+        </div>
+
+        <div class="form-group">
+          <label>Remarks</label>
+          <textarea rows="2"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Academic Year *</label>
+          <select required>
+            <option value="">Select AY</option>
+            <option>2025-26</option>
+            <option>2024-25</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Semester *</label>
+          <select required>
+            <option value="">Select Semester</option>
+            <option>1</option><option>2</option><option>3</option><option>4</option>
+            <option>5</option><option>6</option><option>7</option><option>8</option>
+          </select>
+        </div>
+
+        <div class="form-group full form-actions">
+          <button type="reset" class="secondary">Reset</button>
+          <button type="submit" class="button">Save</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="card">
+    <h2>View Results</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>ResultID</th>
+          <th>Student</th>
+          <th>Course</th>
+          <th>Internal</th>
+          <th>External</th>
+          <th>Total</th>
+          <th>Grade</th>
+          <th>AY</th>
+          <th>Semester</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>R001</td>
+          <td>1001 - Nandha Kumar</td>
+          <td>24CS101</td>
+          <td>25</td>
+          <td>60</td>
+          <td>85</td>
+          <td>A</td>
+          <td>2024-25</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>R002</td>
+          <td>1002 - Ravi</td>
+          <td>24SC201</td>
+          <td>20</td>
+          <td>50</td>
+          <td>70</td>
+          <td>B</td>
+          <td>2024-25</td>
+          <td>2</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>

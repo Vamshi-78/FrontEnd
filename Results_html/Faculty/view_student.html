@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Faculty • Student List</title>
+<link rel="stylesheet" href="Styles/faculty.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 class="ind-heading">Student List</h1>
+    <div class="controls">
+      <input class="search" placeholder="Search by name, roll no, email">
+      <button class="button">Search</button>
+    </div>
+  </header>
+
+  <div class="card">
+    <div class="filters">
+      <div>
+        <label class="small">Course</label><br>
+        <select class="select">
+          <option value="">All Courses</option>
+          <option>24CS101</option>
+          <option>24SC201</option>
+        </select>
+      </div>
+      <div>
+        <label class="small">Section</label><br>
+        <select class="select">
+          <option value="">All Sections</option>
+          <option>A</option><option>B</option><option>C</option>
+        </select>
+      </div>
+      <div>
+        <label class="small">AY</label><br>
+        <select class="select">
+          <option>All</option>
+          <option>2024-25</option>
+          <option>2023-24</option>
+        </select>
+      </div>
+      <div>
+        <label class="small">Semester</label><br>
+        <select class="select">
+          <option>All</option>
+          <option>1</option><option>2</option><option>3</option>
+        </select>
+      </div>
+    </div>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>StudentID</th>
+          <th>Name</th>
+          <th>Roll No</th>
+          <th>Email</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <td>1001</td>
+          <td>purna Kumar</td>
+          <td>CS101A01</td>
+          <td>purna.k78@.edu</td>
+          <td>Enrolled</td>
+        </tr>
+        <tr>
+          <td>1002</td>
+          <td>Ravi Singh</td>
+          <td>CS101A02</td>
+          <td>ravi.s23@.edu</td>
+          <td>Enrolled</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>
