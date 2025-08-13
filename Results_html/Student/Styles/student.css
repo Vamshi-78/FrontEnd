@@ -68,7 +68,7 @@ background: radial-gradient(#f0f0ed,#d9f1d8);
     color: #34a447;
 }
 .list-style li:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 background: radial-gradient(#b0e9f0,#fff);
 }
 .ind-heading{
@@ -96,6 +96,7 @@ background: radial-gradient(#b0e9f0,#fff);
 }
 
 .ind-card{
+  max-width: 300px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -110,7 +111,7 @@ background: radial-gradient(#b0e9f0,#fff);
      transition: transform 0.3s ease,box-shadow 0.3s ease;
 }
 .ind-card:hover{
-transform: scale(1.5);
+transform: scale(1.2);
 background: radial-gradient(#f1e3ef,#fff);
 }
 

@@ -42,7 +42,7 @@ body{
      transition: transform 0.3s ease,box-shadow 0.3s ease;
 }
 .ind-card:hover{
-transform: scale(1.5);
+transform: scale(1.2);
 background: radial-gradient(#f1e3ef,#fff);
 }
 
@@ -103,7 +103,7 @@ table {
 th, td {
   padding: 12px 10px;
   text-align: left;
-  border-bottom: 1px solid #f1f3f5;
+  border-bottom: 1px solid #c7d6e6;
 }
 
 th {

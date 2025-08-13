@@ -38,7 +38,7 @@ body{
      transition: transform 0.3s ease,box-shadow 0.3s ease;
 }
 .faculty-card:hover{
-transform: scale(1.5);
+transform: scale(1.2);
 background: radial-gradient(#7f8edf,#fff);
 }
 .list-style{
@@ -68,7 +68,7 @@ background: radial-gradient(#7f8edf,#fff);
     color: #1c731c;
 }
 .list-style li:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 background: radial-gradient(#c1e9f3,#efe9e9);
 }
 .ind-heading{
